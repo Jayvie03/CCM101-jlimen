@@ -1,7 +1,7 @@
 # CCM101 Cloud Computing Portfolio
 
 ## About Me
-
+ 
 Hello! My name is **Jayvie Ron L. Limen**. I am an Information Technology student currently taking CCM101 – Cloud Computing.
 
 I am interested in learning about cloud computing, Linux systems, networking, and cloud infrastructure. This portfolio will document my progress and practical activities throughout the semester.
