@@ -7,7 +7,7 @@ This laboratory activity, titled **Mission 1: Welcome to the Cloud**, introduces
 The activity involves accessing a cloud-based Linux environment through KillerCoda, exploring the Linux operating system, creating and managing a Linux user, gathering basic system information, organizing files and directories, documenting technical work using Markdown, and creating a GitHub repository.
 
 This laboratory serves as the first step in building my Cloud Computing Portfolio for CCM101.
-
+ 
 ## Objectives
 
 The objectives of this laboratory activity are to:
