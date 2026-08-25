@@ -2,27 +2,27 @@
 
 ## Operating System
 
-* Operating System: 
-PRETTY_NAME="Ubuntu 24.04.4 LTS"
+* Operating System:
+  PRETTY_NAME="Ubuntu 24.04.4 LTS"
 
 **Command:**
 `cat /etc/os-release` displays information about the Linux operating system, such as its name and version.
 
 ## Kernel Version
 
-* Kernel Version: 
-6.8.0-138-generic
+* Kernel Version:
+  6.8.0-138-generic
 
 **Command:**
 `uname -r` displays the version of the Linux kernel currently running on the server.
 
 ## CPU Information
 
-* CPU Model: 
-Intel Xeon E312xx (Sandy Bridge, IBRS update)
+* CPU Model:
+  Intel Xeon E312xx (Sandy Bridge, IBRS update)
 
-* Number of CPU Cores: 
-1
+* Number of CPU Cores:
+  1
 
 **Command:**
 `lscpu` displays detailed information about the CPU, including its model and architecture.
@@ -30,20 +30,20 @@ Intel Xeon E312xx (Sandy Bridge, IBRS update)
 
 ## Memory
 
-* Total RAM: 
-               total        used        free      shared  buff/cache   available
-Mem:           1.9Gi       412Mi       840Mi       1.1Mi       819Mi       1.5Gi
-Swap:          1.0Gi          0B       1.0Gi
+|       | total | used  | free  | shared | buff/cache | available |
+| ----- | ----- | ----- | ----- | ------ | ---------- | --------- |
+| Mem:  | 1.9Gi | 412Mi | 840Mi | 1.1Mi  | 819Mi      | 1.5Gi     |
+| Swap: | 1.0Gi | 0B    | 1.0Gi |        |            |           |
 
 **Command:**
 `free -h` displays information about the system's RAM, including total, used, and available memory. The `-h` option makes the values easier to read.
 
 ## Storage
 
-- Disk Capacity: 20 GB
-- Main Partition: 19 GB mounted at `/`
-- Boot Partition: 913 MB mounted at `/boot`
-- EFI Partition: 106 MB mounted at `/boot/efi`
+* Disk Capacity: 20 GB
+* Main Partition: 19 GB mounted at `/`
+* Boot Partition: 913 MB mounted at `/boot`
+* EFI Partition: 106 MB mounted at `/boot/efi`
 
 **Command:**
 `lsblk` displays information about the available storage devices, partitions, and their mount points.
@@ -52,21 +52,22 @@ Swap:          1.0Gi          0B       1.0Gi
 
 The Linux server contains mounted file systems that allow the operating system and applications to access storage.
 
-Filesystem      Size  Used Avail Use% Mounted on
-tmpfs           191M  996K  190M   1% /run
-/dev/vda1        19G  5.4G   13G  30% /
-tmpfs           952M   84K  952M   1% /dev/shm
-tmpfs           5.0M     0  5.0M   0% /run/lock
-/dev/vda16      881M  117M  703M  15% /boot
-/dev/vda15      105M  6.2M   99M   6% /boot/efi
+| Filesystem | Size | Used | Avail | Use% | Mounted on |
+| ---------- | ---- | ---- | ----- | ---- | ---------- |
+| tmpfs      | 191M | 996K | 190M  | 1%   | /run       |
+| /dev/vda1  | 19G  | 5.4G | 13G   | 30%  | /          |
+| tmpfs      | 952M | 84K  | 952M  | 1%   | /dev/shm   |
+| tmpfs      | 5.0M | 0    | 5.0M  | 0%   | /run/lock  |
+| /dev/vda16 | 881M | 117M | 703M  | 15%  | /boot      |
+| /dev/vda15 | 105M | 6.2M | 99M   | 6%   | /boot/efi  |
 
 **Command:**
 `df -h` displays the file systems currently mounted on the Linux server and shows their total, used, and available storage space.
 
 ## Hostname
 
-* Hostname: 
-ubuntu
+* Hostname:
+  ubuntu
 
 **Command:**
 `hostname` displays the name assigned to the Linux server. It helps identify the server on a network.
