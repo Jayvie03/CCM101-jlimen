@@ -4,6 +4,16 @@
 
 In this laboratory activity, I investigated the infrastructure of a Linux cloud environment using KillerCoda. I examined compute, storage, networking, and operating system resources and documented my findings.
 
+## Checkpoint Completion
+
+- [x] Checkpoint 1 – Expand Your Cloud Portfolio
+- [x] Checkpoint 2 – Investigate the Cloud Server
+- [x] Checkpoint 3 – Identify Cloud Infrastructure Components
+- [x] Checkpoint 4 – Research the Major Cloud Providers
+- [x] Checkpoint 5 – Design a Simple Cloud Infrastructure
+- [x] Checkpoint 6 – Technical Documentation
+- [x] Checkpoint 7 – Mission Reflection
+      
 ## Objectives
 
 * Understand the major components of cloud infrastructure.
