@@ -27,7 +27,7 @@ Compute resources provide processing power. Storage provides space for data and 
 * GitHub
 * Markdown
 * Web Browser
-* Diagramming Tool
+* Canva
 
 ## Linux Commands Executed
 
