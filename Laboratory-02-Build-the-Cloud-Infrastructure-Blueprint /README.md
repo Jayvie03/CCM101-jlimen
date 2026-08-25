@@ -33,7 +33,7 @@ Compute resources provide processing power. Storage provides space for data and 
 
 The following Linux commands were used to investigate the operating system, compute, memory, storage, and networking resources of the cloud server.
 
-| Command | Purpose / Short Explanation |
+| Command | Purpose / Explanation |
 |---|---|
 | `cat /etc/os-release` | Displays information about the Linux operating system, such as its name and version. |
 | `uname -r` | Displays the Linux kernel version currently running on the system. |
