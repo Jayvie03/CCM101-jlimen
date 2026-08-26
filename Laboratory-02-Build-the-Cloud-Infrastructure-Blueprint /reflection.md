@@ -1,4 +1,4 @@
-# Mission Reflection
+# Reflection
 
 During this laboratory activity, I learned more about the different components that make up cloud infrastructure and how they work together. I think **compute resources** are one of the most important components because they provide the processing power needed to run applications, services, and different tasks. Without enough computing resources, applications may not work properly or may become slow. While using KillerCoda, I was able to check the CPU model and number of CPU cores, which helped me understand the actual computing resources available in a Linux cloud environment.
 
