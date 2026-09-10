@@ -155,7 +155,7 @@ The `screenshots` folder contains evidence collected throughout the laboratory a
 
 ### AWS Homepage
 
-[![AWS Homepage](screenshots/aws-homepage.png)](screenshots/aws-homepage.png)
+[![AWS Homepage]([screenshots/aws-homepage.png](https://github.com/Jayvie03/CCM101-jlimen/blob/main/Laboratory-03-Multi-Cloud-Explorer/screenshots/checkpoint2-aws-homepage.png))](https://github.com/Jayvie03/CCM101-jlimen/blob/main/Laboratory-03-Multi-Cloud-Explorer/screenshots/checkpoint2-aws-homepage.png)
 
 ### Azure Homepage
 
