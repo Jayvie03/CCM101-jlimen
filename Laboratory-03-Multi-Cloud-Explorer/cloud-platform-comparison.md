@@ -26,7 +26,7 @@ Microsoft Azure provides the strongest integration with Microsoft technologies. 
 
 Google Cloud is particularly strong in artificial intelligence, machine learning, and Kubernetes. Google Kubernetes Engine provides a managed Kubernetes environment, while Google Cloud also provides services and infrastructure for AI and machine learning workloads.
 
-### 4. Which cloud platform would you personally choose and why?
+### 4. Which cloud platform would you personally choose and why? 
 
 I would personally choose Microsoft Azure because it provides strong enterprise capabilities and integrates well with Microsoft technologies. I also find its services useful for organizations that already depend on Windows Server, Microsoft 365, and Microsoft identity services.
 
