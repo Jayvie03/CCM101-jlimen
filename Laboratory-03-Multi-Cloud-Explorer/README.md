@@ -97,7 +97,8 @@ Additional system partitions are also present:
 
 The following screenshot shows the Linux terminal used to collect the system information required for this laboratory activity.
 
-[![KillerCoda Terminal](screenshots/killercoda-terminal.png)](screenshots/killercoda-terminal.png)
+![KillerCoda Terminal](https://github.com/Jayvie03/CCM101-jlimen/blob/main/Laboratory-03-Multi-Cloud-Explorer/screenshots/checkpoint7-killercoda-terminal_1.png)
+![KillerCoda Terminal](https://github.com/Jayvie03/CCM101-jlimen/blob/main/Laboratory-03-Multi-Cloud-Explorer/screenshots/checkpoint7-killercoda-terminal_2.png)
 
 ## Cloud Hosting Possibilities
 
@@ -163,11 +164,12 @@ The `screenshots` folder contains evidence collected throughout the laboratory a
 
 ### Google Cloud Homepage
 
-[![Google Cloud Homepage](https://github.com/Jayvie03/CCM101-jlimen/blob/main/Laboratory-03-Multi-Cloud-Explorer/screenshots/checkpoint2-gcp-homepage.png)
+![Google Cloud Homepage](https://github.com/Jayvie03/CCM101-jlimen/blob/main/Laboratory-03-Multi-Cloud-Explorer/screenshots/checkpoint2-gcp-homepage.png)
 
 ### KillerCoda Terminal
 
-[![KillerCoda Terminal](screenshots/killercoda-terminal.png)](screenshots/killercoda-terminal.png)
+![KillerCoda Terminal](https://github.com/Jayvie03/CCM101-jlimen/blob/main/Laboratory-03-Multi-Cloud-Explorer/screenshots/checkpoint7-killercoda-terminal_1.png)
+![KillerCoda Terminal](https://github.com/Jayvie03/CCM101-jlimen/blob/main/Laboratory-03-Multi-Cloud-Explorer/screenshots/checkpoint7-killercoda-terminal_2.png)
 
 ### GitHub Repository
 
