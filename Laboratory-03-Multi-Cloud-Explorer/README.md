@@ -159,7 +159,7 @@ The `screenshots` folder contains evidence collected throughout the laboratory a
 
 ### Azure Homepage
 
-[![Azure Homepage](screenshots/azure-homepage.png)](screenshots/azure-homepage.png)
+![Azure Homepage](https://github.com/Jayvie03/CCM101-jlimen/blob/main/Laboratory-03-Multi-Cloud-Explorer/screenshots/checkpoint2-azure-homepage.png)
 
 ### Google Cloud Homepage
 
