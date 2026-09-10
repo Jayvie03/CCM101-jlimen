@@ -42,4 +42,4 @@ AWS can be used by enterprises for web application hosting, data storage and bac
 
 ## Screenshot Evidence
 
-![AWS Homepage](screenshots/aws-homepage.png)
+![AWS Homepage](https://github.com/Jayvie03/CCM101-jlimen/blob/main/Laboratory-03-Multi-Cloud-Explorer/screenshots/checkpoint2-aws-homepage.png)
