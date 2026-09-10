@@ -42,4 +42,4 @@ Azure can be used for Windows Server workloads, Microsoft 365 environments, ente
 
 ## Screenshot Evidence
 
-![Azure Homepage](screenshots/azure-homepage.png)
+![Azure Homepage]([screenshots/azure-homepage.png](https://github.com/Jayvie03/CCM101-jlimen/blob/main/Laboratory-03-Multi-Cloud-Explorer/screenshots/checkpoint2-azure-homepage.png))
