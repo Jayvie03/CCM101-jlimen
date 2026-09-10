@@ -10,11 +10,11 @@ The activity examines the core services, global infrastructure, cloud management
 
 The three cloud platforms investigated in this laboratory are:
 
-* **[Amazon Web Services (AWS)](https://aws.amazon.com/)** – A cloud computing platform that provides services for computing, storage, networking, databases, security, and other cloud workloads.
+* **[Amazon Web Services (AWS)](https://github.com/Jayvie03/CCM101-jlimen/blob/main/Laboratory-03-Multi-Cloud-Explorer/aws-research.md)** – A cloud computing platform that provides services for computing, storage, networking, databases, security, and other cloud workloads.
 
-* **[Microsoft Azure](https://azure.microsoft.com/)** – Microsoft's cloud computing platform that provides services for virtual machines, storage, networking, databases, artificial intelligence, and enterprise applications.
+* **[Microsoft Azure](https://github.com/Jayvie03/CCM101-jlimen/blob/main/Laboratory-03-Multi-Cloud-Explorer/azure-research.md)** – Microsoft's cloud computing platform that provides services for virtual machines, storage, networking, databases, artificial intelligence, and enterprise applications.
 
-* **[Google Cloud Platform (GCP)](https://cloud.google.com/)** – Google's cloud computing platform that provides services for computing, storage, networking, data analytics, artificial intelligence, and containerized applications.
+* **[Google Cloud Platform (GCP)](https://github.com/Jayvie03/CCM101-jlimen/blob/main/Laboratory-03-Multi-Cloud-Explorer/gcp-research.md)** – Google's cloud computing platform that provides services for computing, storage, networking, data analytics, artificial intelligence, and containerized applications.
 
 ## Linux Environment
 
@@ -173,4 +173,4 @@ The `screenshots` folder contains evidence collected throughout the laboratory a
 
 ### GitHub Repository
 
-[![GitHub Repository](screenshots/github-repository.png)](screenshots/github-repository.png)
+![GitHub Repository](https://github.com/Jayvie03/CCM101-jlimen/blob/main/Laboratory-03-Multi-Cloud-Explorer/screenshots/checkpoint1-github-repository.png)
