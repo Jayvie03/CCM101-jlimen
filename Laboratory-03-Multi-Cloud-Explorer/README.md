@@ -163,7 +163,7 @@ The `screenshots` folder contains evidence collected throughout the laboratory a
 
 ### Google Cloud Homepage
 
-[![Google Cloud Homepage](screenshots/gcp-homepage.png)](screenshots/gcp-homepage.png)
+[![Google Cloud Homepage](https://github.com/Jayvie03/CCM101-jlimen/blob/main/Laboratory-03-Multi-Cloud-Explorer/screenshots/checkpoint2-gcp-homepage.png)
 
 ### KillerCoda Terminal
 
