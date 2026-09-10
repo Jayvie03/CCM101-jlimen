@@ -20,9 +20,13 @@ The repository will be updated as I complete each laboratory activity.
 
 This laboratory activity introduces the basic concepts and tools used in a cloud computing environment. It includes working with a Linux environment through KillerCoda, gathering system information, organizing files and directories, creating Markdown documentation, and managing a GitHub repository.
 
-### [Laboratory 02 – Build the Cloud Infrastructure Blueprint](https://github.com/Jayvie03/CCM101-jlimen/tree/main/Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint%20)
+### [Laboratory 02 – Build the Cloud Infrastructure Blueprint](https://github.com/Jayvie03/CCM101-jlimen/tree/main/Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint)
 
 This laboratory activity focuses on understanding and investigating the basic components of cloud infrastructure. It includes examining a Linux cloud server using KillerCoda, identifying compute, storage, networking, and operating system resources, comparing services from AWS, Microsoft Azure, and Google Cloud, creating a simple cloud infrastructure diagram, and documenting the results using Markdown.
+
+### [Laboratory 03 – Multi-Cloud Explorer](https://github.com/Jayvie03/CCM101-jlimen/tree/main/Laboratory-03-Multi-Cloud-Explorer)
+
+This laboratory activity focuses on exploring and comparing three major cloud platforms: Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP). It includes researching their core services, global infrastructure, management consoles, advantages, and enterprise use cases. The activity also involves comparing equivalent cloud services, analyzing different business scenarios, recommending suitable cloud platforms, and investigating a Linux environment using KillerCoda.
 
 More laboratory activities will be added to this portfolio throughout the semester.
 
