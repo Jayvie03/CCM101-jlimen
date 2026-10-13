@@ -1,4 +1,4 @@
-# Laboratory 05 - Cloud Data Engineer
+# Laboratory 05 - The Cloud Data Engineer
 
 ## Mission Overview
 
@@ -172,18 +172,6 @@ Through this laboratory activity, I developed and practiced the following skills
 - Documenting technical procedures using Markdown.
 - Organizing cloud computing laboratory files in GitHub.
 - Maintaining screenshots as evidence of completed tasks.
-
-### File Descriptions
-
-| File/Folder | Description |
-|---|---|
-| `README.md` | Overview, objectives, tools, tasks, and skills learned |
-| `storage-types-research.md` | Research and comparison of Block, File, and Object Storage |
-| `minio-deployment.md` | Technical documentation of the MinIO deployment |
-| `reflection.md` | Reflection on the laboratory experience and lessons learned |
-| `screenshots/` | Contains screenshots used as evidence |
-| `minio-deployed.png` | Evidence of the MinIO Docker deployment |
-| `minio-bucket-upload.png` | Evidence of the created bucket and uploaded file |
 
 ## Mission Result
 
