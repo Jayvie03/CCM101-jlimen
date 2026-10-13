@@ -32,6 +32,12 @@ This laboratory activity focuses on exploring and comparing three major cloud pl
 
 This laboratory activity focuses on understanding the shift from traditional Virtual Machines (VMs) to containerization. It includes comparing VMs and containers, accessing a Docker-enabled environment using KillerCoda, executing fundamental Docker commands, pulling and running an Nginx container, testing the containerized web server, and managing the container lifecycle. The activity also includes documenting Docker operations, creating Markdown files, and maintaining evidence through screenshots.
 
+### [Laboratory 05 – Cloud Data Engineer](https://github.com/Jayvie03/CCM101-jlimen/tree/main/Laboratory-05-Cloud-Data-Engineer)
+
+This laboratory activity focuses on understanding cloud storage and deploying an S3-compatible Object Storage server using MinIO. It includes differentiating between Block Storage, File Storage, and Object Storage, researching their primary use cases and cloud provider examples, and explaining why Object Storage is suitable for storing large amounts of unstructured data such as user-uploaded images.
+
+The activity also involves using Docker in a KillerCoda environment to deploy a MinIO storage server, accessing the MinIO Web Console through port forwarding, creating a storage bucket named `client-photos`, and uploading a sample file. The laboratory also requires documenting the deployment process, storage configuration, screenshots, and personal reflection using Markdown. 
+
 More laboratory activities will be added to this portfolio throughout the semester.
 
 ## Purpose
