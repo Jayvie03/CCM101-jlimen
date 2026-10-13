@@ -34,9 +34,7 @@ This laboratory activity focuses on understanding the shift from traditional Vir
 
 ### [Laboratory 05 – Cloud Data Engineer](https://github.com/Jayvie03/CCM101-jlimen/tree/main/Laboratory-05-Cloud-Data-Engineer)
 
-This laboratory activity focuses on understanding cloud storage and deploying an S3-compatible Object Storage server using MinIO. It includes differentiating between Block Storage, File Storage, and Object Storage, researching their primary use cases and cloud provider examples, and explaining why Object Storage is suitable for storing large amounts of unstructured data such as user-uploaded images.
-
-The activity also involves using Docker in a KillerCoda environment to deploy a MinIO storage server, accessing the MinIO Web Console through port forwarding, creating a storage bucket named `client-photos`, and uploading a sample file. The laboratory also requires documenting the deployment process, storage configuration, screenshots, and personal reflection using Markdown. 
+This laboratory activity focuses on understanding cloud storage and deploying an S3-compatible Object Storage server using MinIO. It includes differentiating between Block Storage, File Storage, and Object Storage, researching their primary use cases and cloud provider examples, deploying MinIO using Docker in a KillerCoda environment, accessing the MinIO Web Console through port forwarding, creating a storage bucket named client-photos, uploading a sample file, and documenting the deployment process, screenshots, and reflection using Markdown.
 
 More laboratory activities will be added to this portfolio throughout the semester.
 
