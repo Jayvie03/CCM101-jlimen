@@ -15,27 +15,27 @@ This laboratory also required me to document my work using Markdown and maintain
 The objectives of this laboratory activity are:
 
 1. **Differentiate between Block, File, and Object Storage.**
-   
+
    Understand how the three major types of cloud storage work and identify the situations where each type of storage is most appropriate.
 
 2. **Deploy an S3-compatible Object Storage server using MinIO.**
-   
+
    Use Docker to deploy and run a MinIO server in the KillerCoda Ubuntu environment.
 
 3. **Access a cloud service through a web interface using port forwarding.**
-   
+
    Access the MinIO Web Console through port 9001 and use the web interface to manage the storage environment.
 
 4. **Create a storage bucket and upload objects.**
-   
+
    Create the `client-photos` bucket and upload a sample image or text file to demonstrate that the object storage system is working.
 
 5. **Document cloud storage operations using Markdown.**
-   
+
    Record the technical steps, configurations, and results of the laboratory using Markdown files.
 
 6. **Continue developing a professional GitHub Cloud Computing Portfolio.**
-   
+
    Organize the laboratory files, documentation, and screenshots in the existing GitHub repository.
 
 ## Tools Used
@@ -143,15 +143,16 @@ The `screenshots` folder contains evidence of the completed laboratory tasks.
 
 ### MinIO Deployment
 
-The `minio-deployed.png` screenshot provides evidence of the Docker deployment and the running MinIO container.
+The `Checkpoint3-minio-deployed.png` screenshot provides evidence of the Docker deployment and the running MinIO container.
 
 ![MinIO Deployment](screenshots/Checkpoint3-minio-deployed.png)
 
 ### Bucket and File Upload
 
-The `minio-bucket-upload.png` screenshot provides evidence of the `client-photos` bucket and the uploaded sample file.
+The `Checkpoint4-minio-bucket-upload.png` and `Checkpoint4.1-minio-bucket-upload.png` screenshots provide evidence of the `client-photos` bucket and the uploaded sample file.
 
 ![MinIO Bucket Upload](screenshots/Checkpoint4-minio-bucket-upload.png)
+
 ![MinIO Bucket Upload](screenshots/Checkpoint4.1-minio-bucket-upload.png)
 
 ## Skills Learned
@@ -180,4 +181,5 @@ The laboratory demonstrated how Object Storage can be used as a cloud storage so
 The completed documentation and screenshots are included in this GitHub folder as part of the Cloud Computing Portfolio.
 
 ## Lesson Learned
+
 Laboratory Activity 5 provided practical experience with cloud storage and containerized cloud services. By combining Docker, MinIO, Linux commands, port forwarding, and GitHub documentation, I was able to build and document a basic Object Storage environment. The activity also helped strengthen my understanding of how cloud storage can be used to support applications that need to manage large amounts of unstructured data.
