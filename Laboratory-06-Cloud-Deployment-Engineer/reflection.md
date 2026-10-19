@@ -1,4 +1,4 @@
-# Cloud Deployment Engineer - Reflection
+# Reflection - Cloud Deployment Engineer 
 
 This laboratory helped me understand how Docker Compose can make the deployment of a multi-container cloud application easier and more organized. Instead of manually creating and configuring each container separately, I was able to describe the required services in a `docker-compose.yml` file. This made the deployment process more consistent because the configuration for the Nextcloud application and MariaDB database was written in one place.
 
