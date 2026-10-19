@@ -36,6 +36,10 @@ This laboratory activity focuses on understanding the shift from traditional Vir
 
 This laboratory activity focuses on understanding cloud storage and deploying a MinIO object storage server using Docker. It includes differentiating between Block Storage, File Storage, and Object Storage, researching their primary use cases and cloud provider examples, deploying MinIO in a KillerCoda environment, accessing the MinIO Web Console through port forwarding, creating a storage bucket named client-photos, uploading a sample file, and documenting the deployment process, screenshots, and reflection using Markdown.
 
+### [Laboratory 06 – Cloud Deployment Engineer](https://github.com/Jayvie03/CCM101-jlimen/tree/main/Laboratory-06-Cloud-Deployment-Engineer)
+
+This laboratory activity focuses on deploying a multi-tier cloud application using Docker Compose. It includes understanding two-tier architecture, creating a `docker-compose.yml` configuration file, deploying a Nextcloud application and MariaDB database in separate containers, accessing the Nextcloud web interface through port 8080, documenting Infrastructure as Code (IaC) principles, and maintaining evidence through screenshots and Markdown documentation.
+
 More laboratory activities will be added to this portfolio throughout the semester.
 
 ## Purpose
