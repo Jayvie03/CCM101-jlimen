@@ -40,6 +40,10 @@ This laboratory activity focuses on understanding cloud storage and deploying a 
 
 This laboratory activity focuses on deploying a multi-tier cloud application using Docker Compose. It includes understanding two-tier architecture, creating a `docker-compose.yml` configuration file, deploying a Nextcloud application and MariaDB database in separate containers, accessing the Nextcloud web interface through port 8080, documenting Infrastructure as Code (IaC) principles, and maintaining evidence through screenshots and Markdown documentation.
 
+### [Laboratory 07 – The Cloud Operations Engineer](https://github.com/Jayvie03/CCM101-jlimen/tree/main/Laboratory-07-Cloud-Operations-Engineer)
+
+This laboratory activity focuses on monitoring and troubleshooting a containerized web application in a Linux environment. It includes establishing a baseline for server memory, disk storage, and CPU activity, deploying an Nginx web server using Docker, generating HTTP requests, analyzing application logs, intentionally creating a `404 Not Found` error, and monitoring container CPU, memory, and network usage using Docker tools. The activity also includes documenting the results, screenshots, and reflection using Markdown.
+
 More laboratory activities will be added to this portfolio throughout the semester.
 
 ## Purpose
