@@ -1,4 +1,4 @@
-# Laboratory 07 – Reflection
+# Reflection - Cloud Operations Engineer
 
 This laboratory activity helped me understand the importance of monitoring both the host server and the containers running on it. First, it is important to check the host server's resources even when containers are running perfectly because the server still provides the CPU, memory, and storage needed by the containers. A container may appear to be working normally, but limited host resources can eventually affect its performance. Checking the host resources helps identify possible problems before they become serious.
 
