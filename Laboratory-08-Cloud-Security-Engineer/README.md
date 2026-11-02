@@ -95,14 +95,6 @@ sudo ufw status numbered
 
 This command displays the active firewall rules with numbers, making it easier to review and manage them.
 
-### 11. Test the Web Application Again
-
-```bash
-curl http://localhost:8080
-```
-
-This command tests the web application again after configuring the firewall to confirm that port 8080 is still accessible.
-
 ## Skills Learned
 
 - Understanding the **Attack Surface** of a Linux server.
