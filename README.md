@@ -44,6 +44,10 @@ This laboratory activity focuses on deploying a multi-tier cloud application usi
 
 This laboratory activity focuses on monitoring and troubleshooting a containerized web application in a Linux environment. It includes establishing a baseline for server memory, disk storage, and CPU activity, deploying an Nginx web server using Docker, generating HTTP requests, analyzing application logs, intentionally creating a `404 Not Found` error, and monitoring container CPU, memory, and network usage using Docker tools. The activity also includes documenting the results, screenshots, and reflection using Markdown.
 
+### [Laboratory 08 – The Cloud Security Engineer](https://github.com/Jayvie03/CCM101-jlimen/tree/main/Laboratory-08-Cloud-Security-Engineer)
+
+This laboratory activity focuses on securing a Linux server using a host-based firewall. It includes understanding the Attack Surface and the Principle of Least Privilege (PoLP), performing a basic security audit of active network ports, deploying an Nginx web application using Docker, configuring UFW with a Default Deny policy, allowing SSH and port 8080 traffic, and documenting firewall rules, screenshots, and reflections using Markdown.
+
 More laboratory activities will be added to this portfolio throughout the semester.
 
 ## Purpose
