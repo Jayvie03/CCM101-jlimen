@@ -2,7 +2,7 @@
 
 ## Laboratory Activity 8 – The Cloud Security Engineer
 
-### Principle of Least Privilege
+### Principle of Least Privilege (PoLP)
 
 The Principle of Least Privilege means giving users, applications, and systems only the permissions they need to do their tasks. In cloud environments, this is important because limiting access can help prevent unauthorized users from accessing resources they do not need.
 
