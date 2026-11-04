@@ -1,4 +1,4 @@
-# Mission Reflection – Laboratory 09: The Cloud Automation Engineer
+# Reflection - The Cloud Automation Engineer
 
 Throughout Laboratory Activities 1 to 9, I gained knowledge and practical experience in different areas of Cloud Computing. These activities helped me understand how cloud environments are created, managed, monitored, and secured. Laboratory 09, in particular, taught me the importance of automation when managing cloud systems.
 
