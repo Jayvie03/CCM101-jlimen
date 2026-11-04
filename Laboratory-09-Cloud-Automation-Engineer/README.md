@@ -131,6 +131,3 @@ This screenshot shows the installed Cron job configured to execute the backup sc
 
 ![Cron Schedule](screenshots/Checkpoint5_cron-schedule.png)
 
----
-
-This laboratory activity helped me understand how Bash scripting and Cron scheduling can be used to automate repetitive tasks in Linux environments. I gained practical experience creating a backup script, managing executable permissions, compressing application data, and configuring a scheduled task. These skills are important in cloud operations because automation helps improve efficiency, consistency, and reliability when managing systems and data.
