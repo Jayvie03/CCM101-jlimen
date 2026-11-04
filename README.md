@@ -50,7 +50,7 @@ This laboratory activity focuses on securing a Linux server using a host-based f
 
 ### [Laboratory 09 – The Cloud Automation Engineer](https://github.com/Jayvie03/CCM101-jlimen/tree/main/Laboratory-09-Cloud-Automation-Engineer)
 
-This laboratory activity focuses on automating server administration tasks using Bash scripting and Linux Cron scheduling. It includes understanding Bash scripts, variables, and Cron jobs, creating a Bash script to automate the backup process of application data, configuring executable permissions using `chmod +x`, generating compressed backup files using `tar`, scheduling automated backups using Cron, and documenting the script, commands, screenshots, and reflection using Markdown.
+This laboratory activity focuses on automating server administration tasks using Bash scripting and Linux Cron scheduling. It includes understanding Bash scripts, variables, and Cron jobs, creating a Bash script to automate the backup process of application data, configuring executable permissions using `chmod +x`, scheduling automated backups using Cron, and documenting the script, commands, screenshots, and reflection using Markdown.
 
 More laboratory activities will be added to this portfolio throughout the semester.
 
