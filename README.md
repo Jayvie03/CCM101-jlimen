@@ -48,6 +48,10 @@ This laboratory activity focuses on monitoring and troubleshooting a containeriz
 
 This laboratory activity focuses on securing a Linux server using a host-based firewall. It includes understanding the Attack Surface and the Principle of Least Privilege (PoLP), performing a basic security audit of active network ports, deploying an Nginx web application using Docker, configuring UFW with a Default Deny policy, allowing SSH and port 8080 traffic, and documenting firewall rules, screenshots, and reflections using Markdown.
 
+### [Laboratory 09 – The Cloud Automation Engineer](https://github.com/Jayvie03/CCM101-jlimen/tree/main/Laboratory-09-Cloud-Automation-Engineer)
+
+This laboratory activity focuses on automating server administration tasks using Bash scripting and Linux Cron scheduling. It includes understanding Bash scripts, variables, and Cron jobs, creating a Bash script to automate the backup process of application data, configuring executable permissions using `chmod +x`, generating compressed backup files using `tar`, scheduling automated backups using Cron, and documenting the script, commands, screenshots, and reflection using Markdown.
+
 More laboratory activities will be added to this portfolio throughout the semester.
 
 ## Purpose
