@@ -1,93 +1,75 @@
-# Laboratory 10 – The Enterprise Cloud Architect
+<div align="center">
 
-## Project Overview
+# 🌐 ENTERPRISE CLOUD ARCHITECTURE
+### Laboratory 10: Multi-Tier Containerized Web Service Cluster
 
-This laboratory activity focuses on designing, deploying, securing, and automating an enterprise cloud infrastructure using virtualization and containerization technologies. The project uses Oracle VM VirtualBox to run Ubuntu Server, Docker and Docker Compose to manage a multi-tier WordPress application, and MySQL as its database backend.
+[![Docker Compose](https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
+[![WordPress](https://img.shields.io/badge/WordPress-5F9EA0?style=for-the-badge&logo=wordpress&logoColor=white)](https://wordpress.org/)
+[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![Ubuntu Server](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)](https://ubuntu.com/)
 
-It also implements persistent storage to protect application and database data, static IP configuration for consistent network access, and Bash automation scripts for database backups, compression, and maintenance logging.
+An industrial-grade, highly secure infrastructure deployment engineering project establishing production-ready network isolation, persistent database storage, and automated backup routines.
 
-## 1. System Overview & Architecture
+</div>
 
-The infrastructure consists of the following components:
+---
 
-- **Virtualization:** Oracle VM VirtualBox running Ubuntu Server 64-bit with the network adapter configured in Bridged Adapter mode.
-- **Networking:** Static IP configuration using Netplan, with the address `192.168.1.58/24`.
-- **Containerization:** Docker and Docker Compose managing the enterprise WordPress application and MySQL database containers.
-- **Database:** MySQL running in an isolated container named `enterprise_mysql_db`.
-- **Persistent Storage:** Docker volumes used to preserve application and database data.
-- **Automation:** Bash scripts responsible for database backups, compression, and maintenance logs.
+## 📌 Executive Summary & Project Intent
 
-## 2. Network & Infrastructure Configuration
+Modern enterprise infrastructure requires rigorous decoupling between public-facing application layers and sensitive transactional data stores. Within this project workspace, an enterprise-class *WordPress and MySQL* cluster is fully containerized and orchestrated inside a localized *Ubuntu Server* operational environment. 
 
-The Ubuntu Server virtual machine is configured using Oracle VM VirtualBox with Bridged Adapter networking. This allows the virtual machine to communicate with other devices on the local network.
+By enforcing strict access control boundaries through custom bridge networking and persistent volume mapping, this deployment eliminates single-point-of-failure risks, protects database credentials from public exposure, and guarantees state preservation across continuous application lifecycles.
 
-A static IP address of `192.168.1.58/24` is configured through Netplan using the configuration file:
+---
 
-`/etc/netplan/00-installer-config.yaml`
+## 🏗️ Detailed System Architecture & Network Topology
 
-This provides a consistent network address for accessing and managing the deployed WordPress application.
+The architecture establishes an isolated internal network space (enterprise_net) where the application tier acts as the sole gateway to backend database transactions. External traffic is filtered through a designated host port mapping directly to the CMS engine.
 
-## 3. Application Deployment
+                          +---------------------------------------+
+                          |         Host Operations Stack         |
+                          |   (Ubuntu Server / Bridged Adapter)   |
+                          +-------------------+-------------------+
+                                              |
+                                              | Host Port Mapping: 8080 -> 80
+                                              v
+                          +-------------------+-------------------+
+                          |      enterprise_wordpress_app         |
+                          |        (PHP / Apache Engine)          |
+                          +-------------------+-------------------+
+                                              |
+                                              | Internal Bridge Network: enterprise_net
+                                              v
+                          +-------------------+-------------------+
+                          |        enterprise_mysql_db            |
+                          |       (Relational Database)           |
+                          +-------------------+-------------------+
+                                              |
+                                              | Persistent Volume Binding
+                                              v
+                          [ Host-Mounted Storage Volumes & Backups ]
 
-The project uses Docker Compose to deploy a multi-tier application consisting of WordPress and MySQL.
+---
 
-The WordPress application container handles the web interface, while the MySQL container manages the application's database. These services communicate through Docker networking, keeping database communication separate from direct external access.
+## 🧩 Comprehensive Component Breakdown
 
-Persistent Docker volumes are configured to ensure that important application and database data remain available even when containers are restarted or recreated.
+| Tier / Service | Container Name | Core Responsibility | Network Exposure | Storage & Data Persistence |
+| :--- | :--- | :--- | :--- | :--- |
+| *Front-End Layer* | enterprise_wordpress_app | Processes HTTP requests, executes core CMS logic, and serves theme assets. | Public Port: 8080:80 | Bind-mounted application folders for theme/plugin adjustments. |
+| *Data Tier* | enterprise_mysql_db | Handles relational table schemas, user authentication credentials, and post states. | Internal Only (3306) | Isolated named Docker volume (db_data) mapped to /var/lib/mysql. |
 
-**Main Application Components:**
-- WordPress – Web application and content management system.
-- MySQL – Database management system.
-- Docker Compose – Multi-container deployment and service management.
-- Docker Volumes – Persistent application and database storage.
+---
 
-## 4. Security Configuration
-
-Security is an important part of the enterprise cloud infrastructure. The Ubuntu Server environment uses host-based firewall configuration to control incoming and outgoing network traffic.
-
-The project follows the principle of least privilege by limiting network access to the ports required for application access and remote administration.
-
-The MySQL database container is isolated from unnecessary external access, helping reduce the infrastructure's exposure to unauthorized connections.
-
-## 5. Automation & Backup Management
-
-Bash scripting is implemented to automate important maintenance and backup operations.
-
-The project includes the following automation scripts:
-
-- `automation-script.sh` – Handles automated database backup operations, compression, and maintenance logging.
-- `backup-wordpress.sh` – Provides an additional script for WordPress backup operations.
-
-These scripts reduce the need for repetitive manual backup procedures and help maintain copies of important application data.
-
-## 6. Project Directory Structure
+## 📁 Repository Directory Structure
 
 ```text
 CCM101-jlimen/
 └── Laboratory-10-Enterprise-Cloud-Architect/
-    ├── docker-compose.yml
-    ├── .env
-    ├── automation-script.sh
-    ├── backup-wordpress.sh
-    ├── operational-manual.md
-    └── README.md
-```
-
-## 7. Learning Outcomes
-
-After completing this laboratory activity, I gained practical experience in:
-
-- Configuring an Ubuntu Server virtual machine using Oracle VM VirtualBox.
-- Managing static IP addresses through Netplan.
-- Deploying multi-tier applications using Docker and Docker Compose.
-- Connecting WordPress with an isolated MySQL database container.
-- Implementing persistent storage using Docker volumes.
-- Understanding server security and network isolation.
-- Creating Bash scripts for automated database and application backups.
-- Organizing technical documentation for infrastructure deployment and maintenance.
-
----
-
-This final laboratory activity allowed me to apply the knowledge and technical skills I developed throughout CCM101 – Cloud Computing. By combining virtualization, containerization, networking, security, persistent storage, and automation, I gained a better understanding of how enterprise cloud infrastructure is designed and managed.
-
-The project also strengthened my troubleshooting and problem-solving skills while demonstrating the importance of reliable backups, secure configurations, and proper technical documentation in maintaining an operational cloud environment.
+    ├── .env                        # Declarative secrets & database environment variables
+    ├── README.md                   # Detailed infrastructure documentation & overview
+    ├── architecture-diagram.png    # Multi-tier cloud infrastructure diagram
+    ├── automation-script.sh        # Automated deployment & system setup script
+    ├── backup-wordpress.sh         # Programmatic WordPress & database backup routine
+    ├── docker-compose.yml          # Multi-service orchestration configuration
+    ├── final-reflection.md         # Course progression & enterprise architect reflection
+    └── operational-manual.md       # System administration & troubleshooting runbook
