@@ -56,6 +56,8 @@ This laboratory activity focuses on automating server administration tasks using
 
 This final laboratory activity focuses on designing, deploying, securing, and automating an enterprise cloud infrastructure using Ubuntu Server, Docker, and Docker Compose. It includes deploying a multi-tier WordPress and MySQL application, configuring network isolation and persistent storage, implementing UFW firewall rules, automating database backups using Bash scripts and Cron, and documenting the infrastructure.
 
+## Portfolio Completion
+
 All ten laboratory activities have been completed and documented in this portfolio, reflecting my learning progress and practical experience throughout CCM101 – Cloud Computing.
 
 ## Purpose
