@@ -1,11 +1,11 @@
 ###  `operational-manual`
-> **File location:** `CCM101-rvidal/Laboratory-10-Enterprise-Cloud-Architec/operational-manual.md`
+> **File location:** `CCM101-jlimen/Laboratory-10-Enterprise-Cloud-Architect/operational-manual.md`
 
 ```markdown
 # Standard Operating Procedures & System Operations Manual
 **System:** Enterprise Cloud Stack (WordPress + MySQL)  
 **Host Environment:** Ubuntu Server 64-bit (Oracle VM VirtualBox)  
-**Repository Path:** `~/CCM101-rvidal/Laboratory-10-Enterprise-Cloud-Architec`  
+**Repository Path:** `~/CCM101-jlimen/Laboratory-10-Enterprise-Cloud-Architect`  
 
 ---
 
