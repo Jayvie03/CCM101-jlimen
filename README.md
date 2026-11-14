@@ -52,7 +52,11 @@ This laboratory activity focuses on securing a Linux server using a host-based f
 
 This laboratory activity focuses on automating server administration tasks using Bash scripting and Linux Cron scheduling. It includes understanding Bash scripts, variables, and Cron jobs, creating a Bash script to automate the backup process of application data, configuring executable permissions using `chmod +x`, scheduling automated backups using Cron, and documenting the script, commands, screenshots, and reflection using Markdown.
 
-More laboratory activities will be added to this portfolio throughout the semester.
+### [Laboratory 10 – The Enterprise Cloud Architect](https://github.com/Jayvie03/CCM101-jlimen/tree/main/Laboratory-10-Enterprise-Cloud-Architect)
+
+This final laboratory activity focuses on designing, deploying, securing, and automating an enterprise cloud infrastructure using Ubuntu Server, Docker, and Docker Compose. It includes deploying a multi-tier WordPress and MySQL application, configuring network isolation and persistent storage, implementing UFW firewall rules, automating database backups using Bash scripts and Cron, and documenting the infrastructure.
+
+All ten laboratory activities have been completed and documented in this portfolio, reflecting my learning progress and practical experience throughout CCM101 – Cloud Computing.
 
 ## Purpose
 
