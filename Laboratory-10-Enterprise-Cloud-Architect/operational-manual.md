@@ -1,7 +1,7 @@
 # 🛠️ Operational Manual & Maintenance Guide
 ## Laboratory 10: Enterprise Cloud Architect
 
-*Project Workspace:* rhainvictoria29-png/CCM101-rvictoria  
+*Project Workspace:* Jayvie03-png/CCM101-jlimen  
 *Deployment Path:* ~/CCM101-jimen/Laboratory-10-Enterprise-Cloud-Architect  
 *Primary Host:* Ubuntu Server
 
