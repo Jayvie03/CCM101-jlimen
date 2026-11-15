@@ -1,23 +1,40 @@
-###  `operational-manual`
-> **File location:** `CCM101-jlimen/Laboratory-10-Enterprise-Cloud-Architect/operational-manual.md`
+# 🛠️ Operational Manual & Maintenance Guide
+## Laboratory 10: Enterprise Cloud Architect
 
-```markdown
-# Standard Operating Procedures & System Operations Manual
-**System:** Enterprise Cloud Stack (WordPress + MySQL)  
-**Host Environment:** Ubuntu Server 64-bit (Oracle VM VirtualBox)  
-**Repository Path:** `~/CCM101-jlimen/Laboratory-10-Enterprise-Cloud-Architect`  
+*Project Workspace:* rhainvictoria29-png/CCM101-rvictoria  
+*Deployment Path:* ~/CCM101-jimen/Laboratory-10-Enterprise-Cloud-Architect  
+*Primary Host:* Ubuntu Server
 
 ---
 
-## Section 1: Network & Environment Baseline
+## 📖 Introduction & Manual Scope
 
-### 1.1 Network Configuration
-The host system uses Netplan for static IP assignment on the primary interface.
-* **IP Address:** `192.168.1.58`
-* **Subnet:** `/24` (`255.255.255.0`)
-* **Gateway:** `192.168.1.1`
+This document serves as the formal operational manual (OpMan) for the containerized WordPress and MySQL cluster deployed on the Ubuntu Server host as part of Laboratory 10. This manual details the procedures required to start, stop, secure, monitor, back up, and troubleshoot the production-ready infrastructure stack. It is intended for administrators responsible for maintaining the health and state of this application ecosystem.
 
-Verify network health:
+---
+
+## 📐 Stack Overview & Service Mapping
+
+The deployed infrastructure uses a multi-tier container orchestration approach defined by Docker Compose. The application layer (enterprise_wordpress_app) acts as the user gateway, while the data tier (enterprise_mysql_db) operates on an isolated bridge network, protecting data transactional integrity.
+
+| Container Service | Responsibility | Port Mapping | Internal Network IP | Storage/Persistence Mount |
+| :--- | :--- | :--- | :--- | :--- |
+| **enterprise_wordpress_app** | Content Delivery, Application Front-End, Apache Server | Host: 8080 → Container: 80 | Dynamic (enterprise_net) | Bind-mount for plugins/themes |
+| **enterprise_mysql_db** | Database Schema, Relational Table Management, post data storage | Internal Only: 3306 | Dynamic (enterprise_net) | Named Volume (db_data) → /var/lib/mysql |
+
+### Isolated Network: enterprise_net
+
+The infrastructure strictly isolates inter-service traffic by creating a dedicated custom bridge network. The application container is the sole permitted conduit to query the database container; all other external network traffic (including host-based connections directly from the Ubuntu shell) is prohibited from connecting directly to the enterprise_mysql_db port 3306.
+
+---
+
+## 🚀 Routine Operations Guide
+
+These commands must be executed within the deployment path: ~/CCM101-jlimen/Laboratory-10-Enterprise-Cloud-Architect.
+
+### 1. Daily Deployment Loop (Start/Stop)
+
+#### Start the Infrastructure
+To initialize the cluster in detached background mode (standard production execution):
 ```bash
-ip addr show
-ping -c 3 8.8.8.8
+docker compose up -d
