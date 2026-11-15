@@ -2,7 +2,7 @@
 ## Laboratory 10: Enterprise Cloud Architect
 
 *Project Workspace:* `Jayvie03/CCM101-jlimen`
-*Deployment Path:* ~/CCM101-jimen/Laboratory-10-Enterprise-Cloud-Architect  
+*Deployment Path:* `~/CCM101-jimen/Laboratory-10-Enterprise-Cloud-Architect `
 *Primary Host:* Ubuntu Server
 
 ---
